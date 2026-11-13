@@ -75,6 +75,15 @@
       border-radius: 10px;
     }
 
+    .header-logo {
+      display: block;
+      width: min(80%, 550px);
+      height: auto;
+      max-height: 180px;
+      object-fit: contain;
+      margin: 0 auto 15px;
+    }
+
     /* =========================
        メインコンテンツ
     ========================= */
@@ -304,8 +313,14 @@
   <!-- ヘッダー -->
 
   <header>
-    <h1>つぶぐみ</h1>
+    <img
+      src="images/header-logo.png"
+      alt="つぶぐみ"
+      class="header-logo"
+    >
+  
     <p>つぶぐみのWebサイトをまとめたポータル</p>
+  
     <div class="header-line"></div>
   </header>
 
